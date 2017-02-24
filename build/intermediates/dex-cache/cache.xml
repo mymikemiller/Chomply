@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\libs\protocol-1.0.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a2d3b9066107a7ee09fbf5db2542ac396d6e656b">
+        <dex dex="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\build\intermediates\pre-dexed\debug\protocol-1.0.5_58fbefd040728156629f2aa4e0e17aa777cb559f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\phist\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_299f85a21bc62c323e7191fa1ab61faa7290b01a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\libs\droidparts-1.5.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8aebb70e1ae4cbbf31752d4b383de0c996958153">
+        <dex dex="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\build\intermediates\pre-dexed\debug\droidparts-1.5.6_cc67129983fce8f96d32867e997a2a55269257e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\libs\commons-lang3-3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="905075e6c80f206bbe6cf1e809d2caa69f420c76">
+        <dex dex="C:\Users\phist\OneDrive\Documents\Projects\Chomply\app\build\intermediates\pre-dexed\debug\commons-lang3-3.1_4528fdd4b87561d50319a2b1c0a0b778ddaa63ec.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <!-- This is focusable only to prevent filter_query from receiving focus and popping up the keyboard -->
+    <RelativeLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    
+	    <org.droidparts.widget.ClearableEditText
+	        android:id="@+id/filter_query"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left|center"
+	        android:layout_toLeftOf="@+id/sort_param_name"
+	        android:imeOptions="actionSearch"
+	        android:hint="Filter menu items"
+	        android:drawableRight="@android:drawable/ic_menu_close_clear_cancel"
+	        android:inputType="text" />
+	    
+	    <TextView
+	        android:id="@+id/sort_param_name" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight = "true"
+	        android:layout_alignBottom = "@id/filter_query"
+	        android:text=""
+	        android:layout_gravity="bottom"
+	        android:paddingLeft="6dip"
+	        android:paddingRight="6dip"
+	        android:textColor="#9ed321"/>
+	    
+    
+    </RelativeLayout>
+	    
+ 
+    <ListView
+        android:id="@+id/item_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:layout_weight="1"/>
+    
+</LinearLayout>

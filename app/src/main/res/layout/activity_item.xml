@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+     
+    <!-- Item Description -->
+    <TextView android:id="@+id/item_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dip"
+        android:textColor="#444444"
+        android:textStyle="bold"/>
+    
+    <TextView android:id="@+id/item_points_plus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dip"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    
+    <TextView android:id="@+id/item_net_carbs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dip"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+     
+    <WebView android:id="@+id/nutritionalLabelView" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+     
+</LinearLayout>

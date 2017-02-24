@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+ 
+    <!-- Restaurant id / Hidden by default -->
+    <TextView
+        android:id="@+id/brand_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+ 
+    <!-- Item id / Hidden by default -->
+    <TextView
+        android:id="@+id/item_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <!-- Item description / Hidden by default -->
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+     
+ 
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/sort_value"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="15dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="15dip"
+        android:textColor="#000000"
+        android:textSize="16dip"/>
+ 
+    <!-- Calorie count -->
+    <TextView
+        android:id="@+id/sort_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="3dip"
+        android:paddingRight="6dip"
+        android:textColor="#9ed321" />
+ 
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<script type="text/javascript">
+//<![CDATA[
+window.__CF=window.__CF||{};window.__CF.AJS={"ga_key":{"ua":"UA-28546740-1","ga_bs":"2"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:1375563973,byc:0,owlid:"cf",mirage:{responsive:0,lazy:0},mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/abv=2706741234/"},atok:"5b1913eda4d61c0e87dbc3fae534173c",zone:"votecharlie.com",rocket:"0",apps:{"ga_key":{"ua":"UA-28546740-1","ga_bs":"2"}}}];var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/abv=3609848800/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>
+<link rel='stylesheet' type='text/css' media='screen' href='http://dev2.nutritionix.com/html/label-jquery-plugin/bootstrap/css/bootstrap.min.css'>
+<link rel='stylesheet' type='text/css' media='screen' href='http://dev2.nutritionix.com/html/label-jquery-plugin/nutritionLabel-min.css'>
+
+<!-- google webfont for nutrition label -->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Archivo+Black" />
+
+<style>
+body{
+padding: 15px;
+margin: 0;
+font-family:Arial, Helvetica, sans-serif;
+line-height:	normal;
+}
+h1,h2,h3,h4,h5,h6 {
+line-height: normal;
+margin-top: 0;
+}
+
+p { line-height: 18px; }
+textarea{
+width: 600px;
+padding: 5px;
+}
+
+input{
+width: 400px;
+padding: 3px;
+}
+
+/* Sidenav for Docs
+-------------------------------------------------- */
+
+.bs-docs-sidenav {
+width: 228px;
+margin: 0;
+padding: 0;
+
+background-color: #fff;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li > a {
+display: block;
+width: 190px \9;
+margin: 0 0 -1px;
+padding: 8px 14px;
+border: 1px solid #e5e5e5;
+}
+.bs-docs-sidenav > li:first-child > a {
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+-webkit-border-radius: 0 0 6px 6px;
+-moz-border-radius: 0 0 6px 6px;
+border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+position: relative;
+z-index: 2;
+padding: 9px 15px;
+border: 0;
+text-shadow: 0 1px 0 rgba(0,0,0,.15);
+-webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+-moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+.bs-docs-sidenav .icon-chevron-right {
+float: right;
+margin-top: 2px;
+margin-right: -6px;
+opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+background-color: #f5f5f5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+background-image: url(../img/glyphicons-halflings-white.png);
+opacity: 1;
+}
+.bs-docs-sidenav.affix {
+top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+position: absolute;
+top: auto;
+bottom: 270px;
+}
+
+.nav-list.affix-top {
+position: fixed;
+}
+</style>
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-28546740-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body>
+<div id="test1">test</div>
+
+<script type="text/javascript" src="http://dev2.nutritionix.com/html/label-jquery-plugin/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="http://dev2.nutritionix.com/html/label-jquery-plugin/nutritionLabel-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('#test1').nutritionLabel(PARAMS);
+});
+</script>
+
+</body>
+</html>

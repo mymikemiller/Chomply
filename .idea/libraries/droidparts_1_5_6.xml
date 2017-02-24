@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="droidparts-1.5.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/droidparts-1.5.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
