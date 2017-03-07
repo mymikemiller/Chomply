@@ -135,7 +135,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </script>
 </head>
 <body>
-<div id="test1">test</div>
+<div id="test1"></div>
 
 <script type="text/javascript" src="http://dev2.nutritionix.com/html/label-jquery-plugin/js/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="http://dev2.nutritionix.com/html/label-jquery-plugin/nutritionLabel-min.js"></script>

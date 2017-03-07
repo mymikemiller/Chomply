@@ -70,12 +70,12 @@ public class ItemActivity extends Activity {
         
         TextView txt_item_description = (TextView) findViewById(R.id.item_description);
         
-        String description = mMenuItem.getDescription();
+        String description = mMenuItem.getDescription().equals("null") ? "" : mMenuItem.getDescription();
         txt_item_description.setText(description);
         
 
         TextView txt_item_points_plus = (TextView) findViewById(R.id.item_points_plus);
-        txt_item_points_plus.setText("ChompScore: " + mMenuItem.getDisplayString(Info.CHOMPSCORE));
+        txt_item_points_plus.setText("WeightWatchers PointsPlus: " + mMenuItem.getDisplayString(Info.CHOMPSCORE));
 
         TextView txt_item_net_carbs = (TextView) findViewById(R.id.item_net_carbs);
         txt_item_net_carbs.setText("Net Carbs: " + String.valueOf(mMenuItem.getDisplayString(Info.NET_CARBS)));

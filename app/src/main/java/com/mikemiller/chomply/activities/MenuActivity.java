@@ -195,6 +195,7 @@ public class MenuActivity extends FragmentActivity implements
 		 * Listview on item click listener ItemActivity will be launched by
 		 * passing brand_id, item_id
 		 * */
+		/* Disable the ItemActivity because the nutrition label isn't working
 		mItemList
 				.setOnItemClickListener(new android.widget.AdapterView.OnItemClickListener() {
 					@Override
@@ -212,7 +213,7 @@ public class MenuActivity extends FragmentActivity implements
 
 						startActivity(i);
 					}
-				});
+				});*/
 
 		EditText filterText = (EditText) findViewById(R.id.filter_query);
 		filterText.addTextChangedListener(new TextWatcher() {
@@ -730,7 +731,5 @@ public class MenuActivity extends FragmentActivity implements
 			Item item = new Item(c);
 			newMenuItemList.add(item);
 		}
-		Log.d("final newMenuItemList.size()",
-				String.valueOf(newMenuItemList.size()));
 	}
 }

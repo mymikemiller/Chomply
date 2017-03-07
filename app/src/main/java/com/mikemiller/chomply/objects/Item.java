@@ -97,7 +97,8 @@ public class Item extends ProtocolModel implements Parcelable {
 	// Returns the info value if it exists, otherwise returns NaN
 	public double optGetDouble(Constants.Info info) {
 		if (info == Info.CHOMPSCORE) {
-			return getChompScore();
+			double chompScore = getChompScore();
+			return chompScore;
 		} else if (info == Info.NET_CARBS) {
 			return getNetCarbs();
 		} else if (values.containsKey(info) && info.dataType == double.class) {
@@ -138,7 +139,7 @@ public class Item extends ProtocolModel implements Parcelable {
 	
 	// mikem: fieldName matches SortParams defined in ItemListActivity. We should really be passed the enum here.
 	public double getDouble(Constants.Info info) throws UnknownInfoException {
-		if (!values.containsKey(info)) {
+		if (info != Info.NET_CARBS && info != Info.CHOMPSCORE && !values.containsKey(info)) {
 			throw new UnknownInfoException("Info is not known for this Item: " + info.databaseName);
 		}
 		return optGetDouble(info);

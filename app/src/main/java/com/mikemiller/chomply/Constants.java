@@ -41,7 +41,7 @@ public class Constants {
 	    IRON("Iron", double.class, "nf_iron_dv", "valueIron", SortOrder.DESCENDING),
 	    // note: when adding something here, don't forget to update Item
 	    
-	    CHOMPSCORE("ChompScore", double.class, "", "", SortOrder.ASCENDING),
+	    CHOMPSCORE("WeightWatchers PointsPlus", double.class, "", "", SortOrder.ASCENDING),
 	    NET_CARBS("Net Carbs", double.class, "", "", SortOrder.ASCENDING);
 		
 		public String readableName;
